@@ -1,10 +1,11 @@
 const d = new Date();
 const hours = [
-    new Date(d.getFullYear(), d.getMonth(), d.getDate(), 08, 00),
-    new Date(d.getFullYear(), d.getMonth(), d.getDate(), 09, 30),
+    new Date(d.getFullYear(), d.getMonth(), d.getDate(), 08, 45),
+    new Date(d.getFullYear(), d.getMonth(), d.getDate(), 10, 20),
     new Date(d.getFullYear(), d.getMonth(), d.getDate(), 10, 35),
     new Date(d.getFullYear(), d.getMonth(), d.getDate(), 12, 10),
     new Date(d.getFullYear(), d.getMonth(), d.getDate(), 12, 30),
+    new Date(d.getFullYear(), d.getMonth(), d.getDate(), 14, 05),
     new Date(d.getFullYear(), d.getMonth(), d.getDate(), 14, 35),
     new Date(d.getFullYear(), d.getMonth(), d.getDate(), 16, 10)
 ]
