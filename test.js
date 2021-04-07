@@ -35,7 +35,10 @@ var mainLoop = setInterval(function(){
     document.getElementById("counter").innerHTML = hours + "h "
 + minutes + "m " + seconds + "s ";
 
-
+    if(!toDate){
+	document.getElementById("counter").innerHTML = "No lessons"
+	clearInterval(mainLoop);
+    }
     if(distance < 0){
 	clearInterval(mainLoop);
     }
