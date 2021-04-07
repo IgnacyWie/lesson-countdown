@@ -1,13 +1,16 @@
 const d = new Date();
 const hours = [
     new Date(d.getFullYear(), d.getMonth(), d.getDate(), 08, 00),
+    new Date(d.getFullYear(), d.getMonth(), d.getDate(), 09, 30),
     new Date(d.getFullYear(), d.getMonth(), d.getDate(), 10, 35),
+    new Date(d.getFullYear(), d.getMonth(), d.getDate(), 12, 10),
     new Date(d.getFullYear(), d.getMonth(), d.getDate(), 12, 30),
     new Date(d.getFullYear(), d.getMonth(), d.getDate(), 14, 35)
+    new Date(d.getFullYear(), d.getMonth(), d.getDate(), 16, 10),
 ]
 for(hour in hours){
-    var node = document.createElement("LI");                 // Create a <li> node
-    var textnode = document.createTextNode(`${hours[hour].getHours()}:${hours[hour].getMinutes()}`);         // Create a text node
+    var node = document.createElement("LI");
+    var textnode = document.createTextNode(`${hours[hour].getHours()}:${hours[hour].getMinutes()}`);
     node.appendChild(textnode); 
     document.getElementById("now").appendChild(node);
 }
