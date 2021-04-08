@@ -40,6 +40,6 @@ var mainLoop = setInterval(function(){
 	clearInterval(mainLoop);
     }
     if(distance < 0){
-	clearInterval(mainLoop);
+	location.reload();
     }
 }, 1000)
